@@ -5,3 +5,10 @@ C:\Users\CC2_PC36\Sharp\curpilla\curpilla\obj\Debug\curpilla.MainForm.resources
 C:\Users\CC2_PC36\Sharp\curpilla\curpilla\obj\Debug\curpilla.csproj.GenerateResource.Cache
 C:\Users\CC2_PC36\Sharp\curpilla\curpilla\obj\Debug\curpilla.exe
 C:\Users\CC2_PC36\Sharp\curpilla\curpilla\obj\Debug\curpilla.pdb
+C:\Users\CC2_PC36\rfc\curpilla\curpilla\bin\Debug\curpilla.exe
+C:\Users\CC2_PC36\rfc\curpilla\curpilla\bin\Debug\curpilla.pdb
+C:\Users\CC2_PC36\rfc\curpilla\curpilla\obj\Debug\curpilla.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC36\rfc\curpilla\curpilla\obj\Debug\curpilla.MainForm.resources
+C:\Users\CC2_PC36\rfc\curpilla\curpilla\obj\Debug\curpilla.csproj.GenerateResource.Cache
+C:\Users\CC2_PC36\rfc\curpilla\curpilla\obj\Debug\curpilla.exe
+C:\Users\CC2_PC36\rfc\curpilla\curpilla\obj\Debug\curpilla.pdb

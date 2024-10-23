@@ -57,7 +57,7 @@ namespace curpilla
 			//declaramos una variable que tome las dos ultimas cifras del año dividiendolo entre 100, usamor tostring"00" para asegurarnos que solo muestre dos digitos
 			string sifrasaño = (año%100).ToString("00");
 			//lo mismo que con el año pero ahora con el mes
-			DateTime mesito=mt_nacimiento.SelectionStart;
+			DateTime mesito=mt_nacimiento.SelectionStart; 
 			int mes = mesito.Month;
 			//ahora con el dia 
 			DateTime diaa = mt_nacimiento.SelectionStart;
@@ -68,7 +68,15 @@ namespace curpilla
 			//declarar una variable que junte todo 
 			string rfc = letrasapellido1 + letrasapellido2 + letranombre + sifrasaño + messtring + diastring;
 			//mostramos el rfc ya junto
-			MessageBox.Show(rfc);
+			string nombree=txtnombre.Text;
+			string apellidoo=txtap1.Text;
+			string apellidooo2=txtap2.Text;
+			string nombrecompleto = nombree + apellidoo + apellidooo2;
+			Form2 calculo = new Form2();
+			calculo.RFC = rfc;
+			calculo.name = nombrecompleto;
+			
+			calculo.Show();
 			
 		}
 	}

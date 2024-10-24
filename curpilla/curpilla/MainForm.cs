@@ -69,7 +69,7 @@ namespace curpilla
 			string rfc = letrasapellido1 + letrasapellido2 + letranombre + sifrasaño + messtring + diastring;
 			//mostramos el rfc ya junto
 			string nombree=txtnombre.Text;
-			string apellidoo=txtap1.Text;
+			string apellidoo=txtap1.Text; 
 			string apellidooo2=txtap2.Text;
 			string nombrecompleto = nombree + apellidoo + apellidooo2;
 			Form2 calculo = new Form2();
@@ -79,5 +79,6 @@ namespace curpilla
 			calculo.Show();
 			
 		}
+	
 	}
 }

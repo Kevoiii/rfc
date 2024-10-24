@@ -55,6 +55,8 @@ namespace curpilla
 			// 
 			// label1
 			// 
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
 			this.label1.Location = new System.Drawing.Point(13, 37);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
@@ -63,43 +65,49 @@ namespace curpilla
 			// 
 			// txtnombre
 			// 
-			this.txtnombre.Location = new System.Drawing.Point(111, 37);
+			this.txtnombre.Location = new System.Drawing.Point(132, 38);
 			this.txtnombre.Name = "txtnombre";
 			this.txtnombre.Size = new System.Drawing.Size(100, 20);
 			this.txtnombre.TabIndex = 1;
 			// 
 			// label2
 			// 
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.label2.Location = new System.Drawing.Point(13, 64);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.Size = new System.Drawing.Size(113, 23);
 			this.label2.TabIndex = 2;
 			this.label2.Text = "Apellido paterno";
 			// 
 			// txtap1
 			// 
-			this.txtap1.Location = new System.Drawing.Point(111, 64);
+			this.txtap1.Location = new System.Drawing.Point(132, 64);
 			this.txtap1.Name = "txtap1";
 			this.txtap1.Size = new System.Drawing.Size(100, 20);
 			this.txtap1.TabIndex = 3;
 			// 
 			// label3
 			// 
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.label3.Location = new System.Drawing.Point(13, 91);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(100, 23);
+			this.label3.Size = new System.Drawing.Size(137, 23);
 			this.label3.TabIndex = 4;
 			this.label3.Text = "Apellido materno";
 			// 
 			// txtap2
 			// 
-			this.txtap2.Location = new System.Drawing.Point(111, 91);
+			this.txtap2.Location = new System.Drawing.Point(132, 91);
 			this.txtap2.Name = "txtap2";
 			this.txtap2.Size = new System.Drawing.Size(100, 20);
 			this.txtap2.TabIndex = 5;
 			// 
 			// label4
 			// 
+			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
 			this.label4.Location = new System.Drawing.Point(13, 118);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(100, 23);
@@ -108,13 +116,15 @@ namespace curpilla
 			// 
 			// txttel
 			// 
-			this.txttel.Location = new System.Drawing.Point(111, 118);
+			this.txttel.Location = new System.Drawing.Point(132, 119);
 			this.txttel.Name = "txttel";
 			this.txttel.Size = new System.Drawing.Size(100, 20);
 			this.txttel.TabIndex = 7;
 			// 
 			// label5
 			// 
+			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
 			this.label5.Location = new System.Drawing.Point(13, 145);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(100, 23);
@@ -123,7 +133,7 @@ namespace curpilla
 			// 
 			// txtdire
 			// 
-			this.txtdire.Location = new System.Drawing.Point(111, 145);
+			this.txtdire.Location = new System.Drawing.Point(132, 148);
 			this.txtdire.Name = "txtdire";
 			this.txtdire.Size = new System.Drawing.Size(100, 20);
 			this.txtdire.TabIndex = 9;
@@ -132,19 +142,21 @@ namespace curpilla
 			// 
 			this.cmbsemestre.FormattingEnabled = true;
 			this.cmbsemestre.Items.AddRange(new object[] {
-									"Semestre 1",
-									"Semestre 2",
-									"Semestre 3",
-									"Semestre 4",
-									"Semestre 5",
-									"Semestre 6"});
-			this.cmbsemestre.Location = new System.Drawing.Point(111, 171);
+			"Semestre 1",
+			"Semestre 2",
+			"Semestre 3",
+			"Semestre 4",
+			"Semestre 5",
+			"Semestre 6"});
+			this.cmbsemestre.Location = new System.Drawing.Point(132, 174);
 			this.cmbsemestre.Name = "cmbsemestre";
 			this.cmbsemestre.Size = new System.Drawing.Size(121, 21);
 			this.cmbsemestre.TabIndex = 10;
 			// 
 			// label6
 			// 
+			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.label6.Location = new System.Drawing.Point(13, 171);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(85, 23);
@@ -153,12 +165,14 @@ namespace curpilla
 			// 
 			// mt_nacimiento
 			// 
-			this.mt_nacimiento.Location = new System.Drawing.Point(111, 199);
+			this.mt_nacimiento.Location = new System.Drawing.Point(132, 207);
 			this.mt_nacimiento.Name = "mt_nacimiento";
 			this.mt_nacimiento.TabIndex = 12;
 			// 
 			// label7
 			// 
+			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
 			this.label7.Location = new System.Drawing.Point(13, 198);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(100, 44);
@@ -167,6 +181,7 @@ namespace curpilla
 			// 
 			// btncalcular
 			// 
+			this.btncalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btncalcular.Location = new System.Drawing.Point(316, 410);
 			this.btncalcular.Name = "btncalcular";
 			this.btncalcular.Size = new System.Drawing.Size(94, 46);
@@ -179,7 +194,7 @@ namespace curpilla
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.Color.Silver;
+			this.BackColor = System.Drawing.Color.Black;
 			this.ClientSize = new System.Drawing.Size(492, 468);
 			this.Controls.Add(this.btncalcular);
 			this.Controls.Add(this.label7);
@@ -200,6 +215,7 @@ namespace curpilla
 			this.Text = "curpilla";
 			this.ResumeLayout(false);
 			this.PerformLayout();
+
 		}
 		private System.Windows.Forms.Button btncalcular;
 		private System.Windows.Forms.Label label7;

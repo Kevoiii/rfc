@@ -64,105 +64,106 @@ namespace curpilla
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(172, 9);
+			this.label1.Location = new System.Drawing.Point(201, 9);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(117, 23);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Cbtis217";
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(13, 9);
+			this.label2.Location = new System.Drawing.Point(15, 9);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.Size = new System.Drawing.Size(117, 23);
 			this.label2.TabIndex = 1;
 			this.label2.Text = "Escuela";
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(13, 47);
+			this.label3.Location = new System.Drawing.Point(15, 47);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(100, 23);
+			this.label3.Size = new System.Drawing.Size(117, 23);
 			this.label3.TabIndex = 2;
 			this.label3.Text = "Materia";
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(172, 47);
+			this.label4.Location = new System.Drawing.Point(201, 47);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(100, 23);
+			this.label4.Size = new System.Drawing.Size(117, 23);
 			this.label4.TabIndex = 3;
 			this.label4.Text = "Metodologias agiles";
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(13, 86);
+			this.label5.Location = new System.Drawing.Point(15, 86);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(100, 39);
+			this.label5.Size = new System.Drawing.Size(117, 39);
 			this.label5.TabIndex = 4;
 			this.label5.Text = "Nombre del programa";
 			// 
 			// label6
 			// 
-			this.label6.Location = new System.Drawing.Point(172, 86);
+			this.label6.Location = new System.Drawing.Point(201, 86);
 			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(100, 23);
+			this.label6.Size = new System.Drawing.Size(117, 23);
 			this.label6.TabIndex = 5;
 			this.label6.Text = "Calcular RFC";
 			// 
 			// label7
 			// 
-			this.label7.Location = new System.Drawing.Point(13, 129);
+			this.label7.Location = new System.Drawing.Point(15, 129);
 			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(100, 23);
+			this.label7.Size = new System.Drawing.Size(117, 23);
 			this.label7.TabIndex = 6;
 			this.label7.Text = "Version";
 			// 
 			// label8
 			// 
-			this.label8.Location = new System.Drawing.Point(172, 129);
+			this.label8.Location = new System.Drawing.Point(201, 129);
 			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(100, 23);
+			this.label8.Size = new System.Drawing.Size(117, 23);
 			this.label8.TabIndex = 7;
 			this.label8.Text = "Cuarta";
 			// 
 			// label9
 			// 
-			this.label9.Location = new System.Drawing.Point(13, 166);
+			this.label9.Location = new System.Drawing.Point(15, 166);
 			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(100, 23);
+			this.label9.Size = new System.Drawing.Size(117, 23);
 			this.label9.TabIndex = 8;
 			this.label9.Text = "Fecha de creacion";
 			// 
 			// label10
 			// 
-			this.label10.Location = new System.Drawing.Point(172, 166);
+			this.label10.Location = new System.Drawing.Point(201, 166);
 			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(100, 23);
+			this.label10.Size = new System.Drawing.Size(117, 23);
 			this.label10.TabIndex = 9;
 			this.label10.Text = "23/10/24";
 			// 
 			// label11
 			// 
-			this.label11.Location = new System.Drawing.Point(13, 203);
+			this.label11.Location = new System.Drawing.Point(15, 203);
 			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(100, 23);
+			this.label11.Size = new System.Drawing.Size(117, 23);
 			this.label11.TabIndex = 10;
 			this.label11.Text = "Nombre del autor";
 			// 
 			// label12
 			// 
-			this.label12.Location = new System.Drawing.Point(172, 203);
+			this.label12.Location = new System.Drawing.Point(201, 203);
 			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(100, 37);
+			this.label12.Size = new System.Drawing.Size(117, 37);
 			this.label12.TabIndex = 11;
 			this.label12.Text = "Kevin Daniel Pérez Vázquez";
 			// 
 			// Form3
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+			this.ClientSize = new System.Drawing.Size(331, 261);
 			this.Controls.Add(this.label12);
 			this.Controls.Add(this.label11);
 			this.Controls.Add(this.label10);
@@ -175,6 +176,8 @@ namespace curpilla
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
+			this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.ForeColor = System.Drawing.SystemColors.ButtonFace;
 			this.Name = "Form3";
 			this.Text = "Form3";
 			this.ResumeLayout(false);

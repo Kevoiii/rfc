@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: CC2_PC36
+ * User: Usuario
  * Date: 23/10/2024
- * Time: 08:13 a. m.
+ * Time: 06:33 p. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -13,11 +13,11 @@ using System.Windows.Forms;
 namespace curpilla
 {
 	/// <summary>
-	/// Description of Form1.
+	/// Description of Form3.
 	/// </summary>
-	public partial class Form1 : Form
+	public partial class Form3 : Form
 	{
-		public Form1()
+		public Form3()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.

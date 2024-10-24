@@ -40,6 +40,7 @@ namespace curpilla
 			this.lblname = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.lblrfc = new System.Windows.Forms.Label();
+			this.btnsiguiente = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -76,11 +77,22 @@ namespace curpilla
 			this.lblrfc.TabIndex = 3;
 			this.lblrfc.Text = "///////";
 			// 
+			// btnsiguiente
+			// 
+			this.btnsiguiente.Location = new System.Drawing.Point(154, 166);
+			this.btnsiguiente.Name = "btnsiguiente";
+			this.btnsiguiente.Size = new System.Drawing.Size(75, 23);
+			this.btnsiguiente.TabIndex = 4;
+			this.btnsiguiente.Text = "siguiente";
+			this.btnsiguiente.UseVisualStyleBackColor = true;
+			this.btnsiguiente.Click += new System.EventHandler(this.BtnsiguienteClick);
+			// 
 			// Form2
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(385, 208);
+			this.Controls.Add(this.btnsiguiente);
 			this.Controls.Add(this.lblrfc);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.lblname);
@@ -89,10 +101,12 @@ namespace curpilla
 			this.Text = "Form2";
 			this.Load += new System.EventHandler(this.Form2Load);
 			this.ResumeLayout(false);
+
 		}
 		private System.Windows.Forms.Label lblrfc;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label lblname;
 		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Button btnsiguiente;
 	}
 }

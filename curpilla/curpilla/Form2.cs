@@ -39,5 +39,10 @@ namespace curpilla
 			lblname.Text=name;
 			
 		}
+		void BtnsiguienteClick(object sender, EventArgs e)
+		{
+			Form3 acercade = new Form3();
+			acercade.Show();
+		}
 	}
 }

@@ -13,3 +13,12 @@ C:\Users\CC2_PC36\rfc\curpilla\curpilla\obj\Debug\curpilla.csproj.GenerateResour
 C:\Users\CC2_PC36\rfc\curpilla\curpilla\obj\Debug\curpilla.exe
 C:\Users\CC2_PC36\rfc\curpilla\curpilla\obj\Debug\curpilla.pdb
 C:\Users\CC2_PC36\rfc\curpilla\curpilla\obj\Debug\curpilla.Form2.resources
+C:\Users\Usuario\rfc\curpilla\curpilla\bin\Debug\curpilla.exe
+C:\Users\Usuario\rfc\curpilla\curpilla\bin\Debug\curpilla.pdb
+C:\Users\Usuario\rfc\curpilla\curpilla\obj\Debug\curpilla.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\rfc\curpilla\curpilla\obj\Debug\curpilla.Form2.resources
+C:\Users\Usuario\rfc\curpilla\curpilla\obj\Debug\curpilla.MainForm.resources
+C:\Users\Usuario\rfc\curpilla\curpilla\obj\Debug\curpilla.csproj.GenerateResource.Cache
+C:\Users\Usuario\rfc\curpilla\curpilla\obj\Debug\curpilla.exe
+C:\Users\Usuario\rfc\curpilla\curpilla\obj\Debug\curpilla.pdb
+C:\Users\Usuario\rfc\curpilla\curpilla\obj\Debug\curpilla.Form3.resources

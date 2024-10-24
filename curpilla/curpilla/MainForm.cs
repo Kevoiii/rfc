@@ -65,7 +65,7 @@ namespace curpilla
 			//igualmente usamos "00" para asegurarnos que sean 2 cifras 
 			string messtring=mes.ToString("00");
 			string diastring=dia.ToString("00");
-			//declarar una variable que junte todo 
+			//declarar una variable que junte todo  
 			string rfc = letrasapellido1 + letrasapellido2 + letranombre + sifrasaño + messtring + diastring;
 			//mostramos el rfc ya junto
 			string nombree=txtnombre.Text;
